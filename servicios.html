@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+			integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Boostrap</title>
+</head>
+<body class="">
+<!-- INICIO NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <div class="container-fluid d-flex justify-content-between ">
+            <a class="navbar-brand" href="#">Gauna's Dev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto  mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="soporte.html">Soporte</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="servicios.html">Servicios Home</a></li>
+                    <li><a class="dropdown-item" href="servicios.html">Diseño Web</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="servicios.html">Landing Page</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-primary text-primary bg-light" href="contacto.html">Contacto</a>
+            </li>
+            </ul>
+            
+            </div>
+        </div>
+    </nav>
+<!-- FIN NAVBAR -->
+
+<!-- comienzo de carousel -->
+<!-- background -->
+<div class="position-relative py-5">
+    <div class="bg-carousel position-absolute top-0 start-0 w-100 h-100"></div>
+    <!-- carrusel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-white">
+        <div class="carousel-item active text-center data-bs-interval=" 9000">
+            <div class="altura d-flex flex-column justify-content-center align-items-center p-5">
+            <h2>Diseño Web</h2>
+            <p>Diseño y desarrollo WEB a medida</p>
+            <a class="btn btn-outline-light" href="#diseño">Leer más</a>
+        </div>
+        </div>
+
+        <div class=" altura carousel-item text-center data-bs-interval=" 9000">
+            <div class="d-flex flex-column justify-content-center align-items-center p-5">
+            <h2>Landing Page</h2>
+            <p>Los mejores diseños hechos por nuestros profesionales</p>
+            <a class=" btn btn-outline-light" href="#landing">Leer más</a>
+            </div>
+
+        </div>
+        <div class=" altura carousel-item text-center data-bs-interval=" 9000">
+            <div class="d-flex flex-column justify-content-center align-items-center p-5">
+            <h2> Nosotros</h2>
+            <p>Conocenos a profundidad</p>
+            <a class="btn btn-outline-light" href="nosotros.html">Leer más</a>
+            </div>
+
+        </div>
+        </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+</div>
+<!-- fin de carousel -->
+<!-- comienza contenido -->
+<main class="container-fluid my-5">
+    <div class="row d-flex">
+        <div class="col-md-6 col-xl-5">
+        <div class="py-5">
+            <h6 id="diseño" class="text-primary">DISEÑO WEB</h6>
+            <h2 class="mb-3">MÁS DE 15 AÑOS DE EXPERIENCIA EN DISEÑO Y SOLUCIONES WEB</h2>
+            <p>
+            Diseño páginas web institucionales, Portales, tiendas virtuales, blogs, además de proyectos personalizados. Integración
+            de gestor de contenido si el cliente lo requiere, usted podrá encargarse del contenido de su página web sin ningún costo
+            adicional (agregar, modificar y eliminar textos, fotos, videos y mucho más).
+            </p>
+            <p>
+            Nuestros trabajos son a medida para ofrecer un producto que se ajuste a las necesidades reales de cada cliente.
+            Los costos están adaptados al presupuesto de la persona que nos contacta y de sus requerimientos en particular. De esta
+            manera logramos que cualquier empresa, profesional, comercio, artista, servicios, disponga de un sitio web y así tener
+            presencia en internet.
+            </p>
+        </div>
+        </div>
+        <div class="col-md-6 col-xl-7 d-flex justify-content-center">
+        <img class="img-blog d-block w-100" src="./img/escribiendo.jpg" alt="mujer-escribiendo">
+        </div>
+    </div>
+
+
+    <section class="container-fluid my-5 row py-5">
+        <h2 class="text-center mb-5">PROCESO DE DESARROLLO</h2>
+        <div class="col-sm-6 col-lg-4  p-3">
+        <span class="logo rounded-circle p-3 bg-primary">
+            <i class="fa fa-lightbulb"></i>
+        </span>
+        <h3>1. Planificación y Diseño</h3>
+        <p>
+            Nos contactamos con el cliente para saber que requiere su proyecto (dominio, hosting, diseño páginas web, integración
+            CMS, actualizaciones, mantenimiento, posicionamiento, etc.)
+        </p>
+        </div>
+        <div class="col-sm-6 col-lg-4  p-3">
+        <span class="logo rounded-circle p-3 bg-primary">
+            <i class="fa fa-clone"></i>
+        </span>
+        <h3>2. Recepción de Material</h3>
+        <p>
+            Pedimos al cliente los material disponible (logotipos, fotografías, videos, textos, etc.) para poder comenzar a
+            diagramar el sitio web
+        </p>
+        </div>
+        <div class="col-sm-6 col-lg-4  p-3">
+        <span class="logo rounded-circle p-3 bg-primary">
+            <i class="fa fa-bezier-curve"></i>
+        </span>
+        <h3>3. Estructura de la Web</h3>
+        <p>
+            Definimos estilo, tipografía, colores, páginas/secciones, menú, etc.
+        </p>
+        </div>
+        <div class="col-sm-6 col-lg-4  p-3">
+        <span class="logo rounded-circle p-3 bg-primary">
+            <i class="fab fa-wordpress-simple"></i>
+        </span>
+        <h3>4. Gestor de contenidos</h3>
+        <p>
+        en caso de que el proyecto requiera un gestor de contenidos (CMS) se procederá a la instalación del sistema y bases de
+        datos.
+        </p>
+        </div>
+        <div class="col-sm-6 col-lg-4  p-3">
+        <span class="logo rounded-circle p-3 bg-primary">
+            <i class="fas fa-desktop"></i>
+        </span>
+        <h3>5. Presentación y Revisiones</h3>
+        <p>
+        Nos reunimos personalmente o de forma online con el cliente para presentar el diseño y hacer revisiones y/o
+        modificaciones si es necesario.
+        </p>
+        </div>
+        <div class="col-sm-6 col-lg-4  p-3">
+        <span class="logo rounded-circle p-3 bg-primary">
+            <i class="fas fa-mouse-pointer"></i>
+        </span>
+        <h3>6. Desarrollo</h3>
+        <p>
+        Una vez que el cliente está conforme con lo diseñado o con el tema comprado en caso de utilizar WordPress comenzamos a
+        desarrollar todas las funciones de la web.
+        </p>
+        </div>
+        <div class="col-sm-6 col-lg-4  p-3">
+        <span class="logo rounded-circle p-3 bg-primary">
+            <i class="fa fa-clipboard"></i>
+        </span>
+        <h3>7. Revisiones y Correcciones</h3>
+        <p>
+        Previo al lanzamiento volvemos a revisarlo junto al cliente.
+        </p>
+        </div>
+        <div class="col-sm-6 col-lg-4  p-3">
+        <span class="logo rounded-circle p-3 bg-primary">
+            <i class="fas fa-wrench"></i>
+        </span>
+        <h3>8. Soporte y Aprendizaje</h3>
+        <p>
+        En caso que se haya utilizado un CMS (gestor de contenidos) le enseñamos a utilizar las funciones de su web.
+        </p>
+        </div>
+        <div class="col-sm-6 col-lg-4  p-3">
+        <span class="logo rounded-circle p-3 bg-primary">
+            <i class="fas fa-key"></i>
+        </span>
+        <h3>9. Entrega y Lanzamiento</h3>
+        <p>
+        Una vez que el cliente esté completamente conforme publicamos el sitio web online.
+        </p>
+        </div>
+    </section>
+
+    <section class="container-fluid my-4">
+        <div class="row">
+        <div class="col-md-6 col-xl-7 d-flex justify-content-center">
+            <img class="img-blog d-block w-100" src="./img/landing.png" alt="imagen-landing">
+        </div>
+        <div class="col-md-6 col-xl-5">
+        <h6 id="landing" class="text-primary text-end">LANDING PAGE</h6>
+        <h2 class="text-end">
+            DISEÑAMOS LANDING PAGE EFECTIVAS
+        </h2>
+        <p class="text-end">
+            Las Landing Pages, son estructuradas con el objetivo de convertir visitantes en Leads, y leads en Clientes.
+        </p>
+        <p class="text-end">
+        Son desarrolladas en bloques de contenido en formato one page o página única (todo el contenido en una sección), para
+        que la navegación sea más objetiva, sin distracciones que puedan distanciar a los usuarios del objetivo pretendido (la
+        converción) .
+        </p>
+        <p class="text-end">
+        Una Landing Page o página de aterrizaje se utiliza para un objetivo concreto como vender un producto, lanzar una oferta,
+        ofrecer un servicio específico, que nos sigan en las redes socials, que nos den su email, en fin… puede haber muchos
+        motivos, pero basicamente lo que se busca conseguir es uno de ellos.
+        </p>
+        </div>
+        </div>
+        </div>
+    </section>
+</main>
+<!-- fin del contenido -->
+<!-- footer -->
+<footer class="container-fluid bg-dark text-center p-1">
+    <p class="text-light small">Gauna´s Dev 2021. All Rights Reserved.</p>
+</footer>
+
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

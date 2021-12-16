@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+			integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Boostrap</title>
+</head>
+<body class="">
+<!-- INICIO NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <div class="container-fluid d-flex justify-content-between ">
+            <a class="navbar-brand" href="#">Gauna's Dev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto  mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="soporte.html">Soporte</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="servicios.html">Servicios Home</a></li>
+                    <li><a class="dropdown-item" href="servicios.html">Diseño Web</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="servicios.html">Landing Page</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-primary text-primary bg-light" href="contacto.html">Contacto</a>
+            </li>
+            </ul>
+            
+            </div>
+        </div>
+    </nav>
+<!-- FIN NAVBAR -->
+
+<!-- carousel -->
+<!-- background -->
+<div class="position-relative py-5">
+    <div class="bg-carousel position-absolute top-0 start-0 w-100 h-100"></div>
+    <!-- carrusel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-white">
+        <div class="carousel-item active text-center data-bs-interval=" 9000">
+            <div class="altura d-flex flex-column justify-content-center align-items-center p-5">
+            <h2>Diseño Web</h2>
+            <p>Diseño y desarrollo WEB a medida</p>
+            <a class="btn btn-outline-light" href="servicios.html">Leer más</a>
+            </div>
+        </div>
+
+        <div class=" altura carousel-item text-center data-bs-interval=" 9000">
+            <div class="d-flex flex-column justify-content-center align-items-center p-5">
+            <h2>Landing Page</h2>
+            <p>Los mejores diseños hechos por nuestros profesionales</p>
+            <a class=" btn btn-outline-light" href="servicios.html">Leer más</a>
+            </div>
+
+        </div>
+        <div class=" altura carousel-item text-center data-bs-interval=" 9000">
+            <div class="d-flex flex-column justify-content-center align-items-center p-5">
+            <h2> Nosotros</h2>
+            <p>Conocenos a profundidad</p>
+            <a class="btn btn-outline-light" href="nosotros.html">Leer más</a>
+            </div>
+
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<!-- fin de carousel -->
+<!-- inicio del contenido -->
+<main class="container my-5">
+    <div class="row">
+        <div class="col-6-lg col-12-sm mantenimiento rounded shadow-start p-5">
+        <h2 class="text-center fw-bold">Mantenimiento Mensual</h2>
+        <p class="text-center">Mantenga la atención de su empresa y déjenos la administración de su sitio web. Ofrecemos planes especiales de
+        mantenimiento mensual, usted podrá ocuparse de su empresa sin tener que perder tiempo en mantener su sitio web. Tenga su
+        disposición personal altamente especializado y preparado para administrar sus negocios online. Realizamos toda gestión
+        de su sitio web, inclusión de materiales (productos, textos, fotos videos) de forma creativa siempre que usted nesecite.
+        </p>
+        </div>
+        <div class="col-6-lg col-12-sm mantenimiento-dos rounded shadow-end p-5 my-1">
+        <h2 class="text-center fw-bold">Mantenimiento Puntual</h2>
+        <p class="text-center">Servicio puntual de mantenimiento (se abona por pedido, sin abono mensual), según la necesidad del cliente.
+        </p>
+
+    </div>
+</main>
+<!-- fin del contenido -->
+<!-- footer -->
+<footer class="container-fluid bg-dark text-center p-1">
+    <p class="text-light small">Gauna´s Dev 2021. All Rights Reserved.</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
